@@ -1,0 +1,41 @@
+a {
+  cursor: url(http://forgetyesterday.com.ar/welcome/rayo-amarillo.png) 0 64, default;
+}
+
+body {
+  cursor: url(http://forgetyesterday.com.ar/welcome/rayo-blanco.png) 0 64, default;
+}
+
+#store-container {
+  margin-top: 20px;
+}
+
+#store-button {
+  margin: auto;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.img-block {
+  height: 700px;
+}
+
+#logo-container {
+  height: 700px;
+}
+
+#logo-forget {
+  top: 45%;
+}
+
+.img-top {
+  position: relative;
+  bottom: 300%;
+}
+
+.img-bottom {
+  position: relative;
+  top: 300%;
+}
