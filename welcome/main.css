@@ -1,41 +1,97 @@
 a {
-  cursor: url(http://forgetyesterday.com.ar/welcome/rayo-amarillo.png) 0 64, default;
+    cursor: url(http://forgetyesterday.com.ar/welcome/rayo-amarillo.png) 0 64, default;
 }
 
 body {
-  cursor: url(http://forgetyesterday.com.ar/welcome/rayo-blanco.png) 0 64, default;
+    cursor: url(http://forgetyesterday.com.ar/welcome/rayo-blanco.png) 0 64, default;
 }
 
-#store-container {
-  margin-top: 20px;
-}
-
-#store-button {
-  margin: auto;
+html, body, .row, .container {
+    height: 100%;
 }
 
 .container {
-  overflow: hidden;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-default {
+    border: none;
+    background-color: #fff;
+}
+
+#img-block-1, #img-block-2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+
+#store-container {
+    margin-top: 20px;
+}
+
+#store-button {
+    margin: auto;
+}
+
+.container {
+    overflow: hidden;
 }
 
 .img-block {
-  height: 700px;
+    height: 700px;
 }
 
 #logo-container {
-  height: 700px;
+    height: 100%;
+}
+
+#logo-header {
+    position: absolute;
+    right: 40px;
+    top: 10px;
 }
 
 #logo-forget {
-  top: 45%;
+    top: 0%;
+    height: 100%;
+    background-image: url(http://forgetyesterday.com.ar/welcome/cara-256.png);
+    background-position: 0px 0px;
+    background-repeat: repeat-y;
+    -webkit-animation: myanim 60s infinite linear;
+    -moz-animation: myanim 60s infinite linear;
+    -o-animation: myanim 60s infinite linear;
+    animation: myanim 60s infinite linear;
+}
+
+@-webkit-keyframes myanim {
+    0%   { background-position: 0px; }
+    100% { background-position: 0px 20000px; } /* set this to the width of the image */
+}
+@-moz-keyframes myanim {
+    0%   { background-position: 0px; }
+    100% { background-position: 0px 20000x; } /* set this to the width of the image */
+}
+@-o-keyframes myanim {
+    0%   { background-position: 0px; }
+    100% { background-position: 20000px; } /* set this to the width of the image */
+}
+@keyframes myanim {
+    0%   { background-position: 0px; }
+    100% { background-position: 0px 20000px; } /* set this to the width of the image */
 }
 
 .img-top {
-  position: relative;
-  bottom: 300%;
+    position: relative;
+    bottom: 300%;
 }
 
 .img-bottom {
-  position: relative;
-  top: 300%;
+    position: relative;
+    top: 300%;
 }
